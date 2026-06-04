@@ -1,8 +1,8 @@
 # eval-framework
 
-An automated evaluation framework for the Archery Canada HR Policy RAG system. Uses Claude as an LLM judge to score retrieval quality, answer correctness, and appropriate refusal across 15 curated test cases.
+**[▶ Watch the demo](https://www.loom.com/share/d3d38dabdc2f4fc7b1768e274afe5747)**
 
-**[Demo video](https://www.loom.com/share/d3d38dabdc2f4fc7b1768e274afe5747)**
+An automated evaluation framework for the Archery Canada HR Policy RAG system. Uses Claude as an LLM judge to score retrieval quality, answer correctness, and appropriate refusal across 15 curated test cases.
 
 ## Architecture
 
