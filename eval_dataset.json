@@ -1,0 +1,107 @@
+[
+  {
+    "id": "factual_001",
+    "question": "How many paid sick days are employees entitled to per year?",
+    "expected_answer": "Employees are entitled to ten (10) paid sick days per calendar year, accumulated at a rate of 0.83 days per month. Employees working less than full-time have their accumulation rate adjusted accordingly.",
+    "category": "factual",
+    "should_refuse": false
+  },
+  {
+    "id": "factual_002",
+    "question": "What are the regular office hours and core operational hours at Archery Canada?",
+    "expected_answer": "Regular office hours are 8:00 a.m. to 4:00 p.m., Monday through Friday (excluding holidays). Core operational hours are 9:00 a.m. to 3:00 p.m., during which most staff are expected to be available. All employees are expected to work 7.5 hours per day, exclusive of an unpaid eating break of at least 30 minutes.",
+    "category": "factual",
+    "should_refuse": false
+  },
+  {
+    "id": "factual_003",
+    "question": "How many paid bereavement days does Archery Canada provide when an immediate family member passes away?",
+    "expected_answer": "Archery Canada grants up to three (3) paid working days per event for a death in a staff member's immediate family. Immediate family includes: parent(s), step parent(s), foster parent(s), sibling(s), grandparent(s), spouse (including common law and/or same sex partner), step child(ren) or ward, and father-in-law or mother-in-law (including parent of same sex partner).",
+    "category": "factual",
+    "should_refuse": false
+  },
+  {
+    "id": "factual_004",
+    "question": "How many total holidays does Archery Canada observe each year?",
+    "expected_answer": "Archery Canada observes 12 holidays in total: 9 public/statutory holidays under the Ontario Employment Standards Act, 2000 (New Year's Day, Family Day, Good Friday, Victoria Day, Canada Day, Labour Day, Thanksgiving Day, Christmas Day, Boxing Day) plus 3 additional company-recognized holidays (Easter Monday, August Civic Holiday, and Remembrance Day if it falls on a weekday).",
+    "category": "factual",
+    "should_refuse": false
+  },
+  {
+    "id": "factual_005",
+    "question": "How long is the probationary period for new employees at Archery Canada?",
+    "expected_answer": "The probationary period is the first 3 months of employment. At the end of the probation period, one of three outcomes occurs: probation ends, probation is extended for an additional term as determined by the Executive Director, or employment ends.",
+    "category": "factual",
+    "should_refuse": false
+  },
+  {
+    "id": "factual_006",
+    "question": "How much notice is an employee required to give when resigning?",
+    "expected_answer": "Employees must give the employer two (2) weeks notice of resignation. The employer may waive the notice period in whole or in part by providing payment of regular wages for the period waived.",
+    "category": "factual",
+    "should_refuse": false
+  },
+  {
+    "id": "factual_007",
+    "question": "When do employee benefits begin and what do they cover?",
+    "expected_answer": "Benefits begin on the first day of employment with no waiting period. Archery Canada offers a group benefits plan through Great West Life (GWL) Sport Community Benefits Plan (SCBP), which includes Group Health, Dental, Vision Care, Long and Short Term Disability, and accident and life insurance. These benefits are 100% paid by the employer, with the exception of Family Coverage.",
+    "category": "factual",
+    "should_refuse": false
+  },
+  {
+    "id": "factual_008",
+    "question": "How much vacation does a Management employee earn per year during their first three years?",
+    "expected_answer": "Management employees accrue vacation at 1.25 days per month, to a maximum of 15 days per calendar year, for the first three (3) years of employment. After completing three years of service, the rate increases to 1.66 days per month, up to a maximum of 20 days per calendar year.",
+    "category": "factual",
+    "should_refuse": false
+  },
+  {
+    "id": "edge_case_001",
+    "question": "Can I carry over unused vacation days from this year to next year?",
+    "expected_answer": "No. The policy explicitly states that employees may not carry over any vacation days from one year to the next. Vacation is intended to give employees a chance to rest and rejuvenate, and the employer encourages employees to take their full entitlement within the year.",
+    "category": "edge_case",
+    "should_refuse": false
+  },
+  {
+    "id": "edge_case_002",
+    "question": "Can I use my sick leave to stay home and care for my sick child?",
+    "expected_answer": "No. According to the policy, sick leave may only be used for the employee's own personal illness, personal medical appointments, and visits to specialists. Caring for a sick family member is not listed as an eligible use of sick leave.",
+    "category": "edge_case",
+    "should_refuse": false
+  },
+  {
+    "id": "edge_case_003",
+    "question": "What happens to my benefits and vacation accrual if I take unpaid leave?",
+    "expected_answer": "It depends on the type of unpaid leave. For non-protected unpaid leave (approved by the Executive Director), medical, dental, life, and AD&D coverage are suspended, vacation accrual ceases, and length of service is interrupted. RRSP matching contributions also cease. For protected unpaid leave (e.g., pregnancy, parental, family medical leave), the rules are governed by the Ontario Employment Standards Act, 2000, which the policy references but does not detail further.",
+    "category": "edge_case",
+    "should_refuse": false
+  },
+  {
+    "id": "edge_case_004",
+    "question": "How is overtime calculated, and when does the 1.5x rate kick in?",
+    "expected_answer": "All overtime must be pre-authorized by a manager/supervisor. Employees receive time off in lieu at straight time (1:1) for all hours worked up to 44 hours per week. Once an employee exceeds 44 hours in a week, they accumulate time off in lieu at a rate of 1.5x the regular non-overtime rate. All accrued lieu time must be taken within three (3) months of being earned and must be scheduled with the agreement of the manager based on operational requirements.",
+    "category": "edge_case",
+    "should_refuse": false
+  },
+  {
+    "id": "out_of_scope_001",
+    "question": "What are the specific meal and accommodation reimbursement rates when travelling for work?",
+    "expected_answer": "I don't know. The HR Policy Manual references Archery Canada's Financial Policy (Section 11: Travel and Accommodation) for procedures on transportation, meals, lodging, and documentation, but the specific rates and procedures are not contained in this HR manual.",
+    "category": "out_of_scope",
+    "should_refuse": true
+  },
+  {
+    "id": "out_of_scope_002",
+    "question": "What is my salary band or pay range for my role?",
+    "expected_answer": "I don't know. The HR Policy Manual states that salaries are determined by the Executive Director based on budget considerations and the qualifications of the candidate. Specific salary bands or pay ranges are not published in this manual.",
+    "category": "out_of_scope",
+    "should_refuse": true
+  },
+  {
+    "id": "out_of_scope_003",
+    "question": "What are the exact steps to file a formal harassment complaint?",
+    "expected_answer": "I don't know. The HR Policy Manual acknowledges that employees may submit a written complaint if they experience harassment, discrimination, or workplace violence, but it refers readers to Archery Canada's separate Harassment and Abuse Policy for the full complaint procedure. That procedure is not reproduced in this manual.",
+    "category": "out_of_scope",
+    "should_refuse": true
+  }
+]
